@@ -3434,7 +3434,7 @@ static void Task_PrintInfoPage(u8 taskId)
     case 7:
         DestroyTask(taskId);
         return;
-    }
+    }s
     data[0]++;
 }
 
@@ -3760,8 +3760,8 @@ static void PrintRibbonCount(void)
 
 static void BufferStat(u8 *dst, u8 statIndex, u32 stat, u32 strId, u32 n)
 {
-    static const u8 sTextNatureDown[] = _("{COLOR}{08}");
-    static const u8 sTextNatureUp[] = _("{COLOR}{05}");
+    static const u8 sTextNatureDown[] = _("{COLOR}{05}");
+    static const u8 sTextNatureUp[] = _("{COLOR}{02}");
     static const u8 sTextNatureNeutral[] = _("{COLOR}{01}");
     u8 *txtPtr;
 
