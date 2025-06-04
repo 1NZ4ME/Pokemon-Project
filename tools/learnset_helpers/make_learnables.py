@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.12
 
 """
 Usage: python3 make_learnables.py INPUTS_DIR OUTPUT_FILE
