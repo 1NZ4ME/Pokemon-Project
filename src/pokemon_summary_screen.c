@@ -3429,7 +3429,7 @@ static void Task_PrintInfoPage(u8 taskId)
     case 7:
         DestroyTask(taskId);
         return;
-    }s
+    }
     data[0]++;
 }
 
